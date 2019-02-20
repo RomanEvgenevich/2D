@@ -1,7 +1,7 @@
-object Form2: TForm2
+object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form2'
+  Caption = 'Form1'
   ClientHeight = 299
   ClientWidth = 635
   Color = clBtnFace
@@ -14,18 +14,28 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 112
-    Top = 24
-    Width = 159
-    Height = 77
+    Left = 272
+    Top = 128
+    Width = 31
+    Height = 13
     Caption = 'Label1'
   end
   object Button1: TButton
     Left = 112
-    Top = 136
+    Top = 128
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = 'Nice'
     TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 112
+    Top = 97
+    Width = 75
+    Height = 25
+    Caption = 'Anime'
+    TabOrder = 1
+    OnClick = Button2Click
   end
 end
